@@ -69,6 +69,41 @@ const squadreDiCalcio = [
 console.log(squadreDiCalcio);
 
 
+//Genero numeri random al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”.
+squadreDiCalcio.forEach = [
+    {
+        nome: "Juventus",
+        puntiFatti: Math.floor(Math.random() * 100),
+        falliSubiti: Math.floor(Math.random() * 150)
+    },
+    {
+        nome: "Inter",
+        puntiFatti: Math.floor(Math.random() * 100),
+        falliSubiti: Math.floor(Math.random() * 150)
+    },
+    {
+        nome: "Milan",
+        puntiFatti: Math.floor(Math.random() * 100),
+        falliSubiti: Math.floor(Math.random() * 150)
+    },
+    {
+        nome: "Napoli",
+        puntiFatti: Math.floor(Math.random() * 100),
+        falliSubiti: Math.floor(Math.random() * 150)
+    },
+    {
+        nome: "Roma",
+        puntiFatti: Math.floor(Math.random() * 100),
+        falliSubiti: Math.floor(Math.random() * 150)
+    }
+];
+console.log(squadreDiCalcio);
+
+
+//creo un nuovo array i cui elementi contengono solo nomi e falli subiti.
+
+
+
 
 
 
