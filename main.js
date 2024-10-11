@@ -25,6 +25,11 @@ const biciDaCorsa = [
 ];
 console.log(biciDaCorsa);
 
+const biciLeggera = biciDaCorsa.reduce((min, corrente) => {
+    return (corrente.peso < min.peso) ? corrente : min;
+});
+
+console.log(biciLeggera);
 
 
 
